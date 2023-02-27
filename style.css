@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+ *{
+
+	margin: 0;
+	padding: 6px;
+	box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small;
+} 
+body {
+    display: flex;
+    flex-direction: row;
+    
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+	padding: 19px;
+	box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small;
+    
+}
+button{
+    width: 32px;
+    height: 38px;    
+    font-weight: 500;
+    border-radius: 12px;
+    border: 1px solid #ecedf0;    
+    background-color: #fff;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+#login{
+    
+    font-weight: bold;
+    border-radius: 1px;
+    border: 1px solid #eaebed;
+    color: #fff;
+    background-color: #306995;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+a{
+
+    color: #355591;
+}
+
+.icon {
+    width: 30px;
+}
+form input{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ededee;
+    width: 35px;
+    height: 45px;
+    border-radius: 5px;
+      
+}
+#pic1 {
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.or{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;    
+    width: 280px;   
+    justify-content: center;
+    color: #aaaaaa;
+}
